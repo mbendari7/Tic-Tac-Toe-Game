@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #define MAX_SIZE 10 // Maximum grid size
+// test comment
 
 void initializeBoard(char board[MAX_SIZE][MAX_SIZE], int size);
 void printBoard(char board[MAX_SIZE][MAX_SIZE], int size);
