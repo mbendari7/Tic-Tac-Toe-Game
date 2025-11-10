@@ -50,7 +50,6 @@ void printBoard(char board[MAX_SIZE][MAX_SIZE], int size)
             // Print vertical separator
             if (j < size - 1 && j > 0)
             {
-                printf("|");
             }
         }
         printf("\n");
