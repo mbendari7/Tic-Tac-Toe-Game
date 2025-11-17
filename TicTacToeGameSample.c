@@ -3,11 +3,6 @@
 #include <time.h>
 #define MAX_SIZE 10 // Maximum grid size
 
-// --- AI support: globals, prototypes and helper functions ---
-// Enable/disable AI and which side AI will play ('X' or 'O')
-int aiEnabled = 0;
-char aiPlayer = 'O'; // default if AI enabled
-
 // Function prototypes
 void initializeBoard(char board[MAX_SIZE][MAX_SIZE], int size);
 void printBoard(char board[MAX_SIZE][MAX_SIZE], int size);
